@@ -10,6 +10,7 @@
     </types>
     <types>
         <members>Candidate__c.First_Name__c</members>
+        <members>ObjectAugTest__c.Field01__c</members>
         <name>CustomField</name>
     </types>
 </Package>

@@ -9,8 +9,11 @@
         <name>ApexClass</name>
     </types>
     <types>
+        <members>Candidate__c.Address__c</members>
+        <members>Candidate__c.Currently_Employed__c</members>
         <members>Candidate__c.Last_Name__c</members>
         <members>Candidate__c.Phone_Mobile__c</members>
+        <members>Candidate__c.Year_s_of_Exp__c</members>
         <members>Goal.OrigGoalId__c</members>
         <members>Metric.OrigMetricId__c</members>
         <members>Object10__c.Field10__c</members>

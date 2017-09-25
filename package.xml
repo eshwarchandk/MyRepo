@@ -26,6 +26,7 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>EnhancedLokObject__c</members>
         <members>Training3__c</members>
         <name>CustomObject</name>
     </types>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>39.0</version>
+<?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>ApexC1</members>
         <members>ApexC2</members>
@@ -14,6 +12,7 @@
         <members>Candidate__c.Last_Name__c</members>
         <members>Candidate__c.Phone_Mobile__c</members>
         <members>Candidate__c.Year_s_of_Exp__c</members>
+        <members>EnhancedLokObject__c.Field1__c</members>
         <members>Goal.OrigGoalId__c</members>
         <members>Metric.OrigMetricId__c</members>
         <members>Object10__c.Field10__c</members>
@@ -21,13 +20,56 @@
         <members>ObjectAugTest__c.Field01__c</members>
         <members>Object_Local__c.Field1__c</members>
         <members>Object_Local__c.Field2__c</members>
+        <members>Training3__c.Field1__c</members>
+        <members>Training3__c.Field2__c</members>
         <members>Transaction__c.Date__c</members>
         <members>Transaction__c.Name__c</members>
         <name>CustomField</name>
     </types>
     <types>
         <members>EnhancedLokObject__c</members>
+        <members>EnhancedObject__c</members>
         <members>Training3__c</members>
         <name>CustomObject</name>
     </types>
+    <types>
+        <members>MyDocs</members>
+        <members>MyDocs/Sample1.jpg</members>
+        <members>MyDocs/Sample2.jpg</members>
+        <name>Document</name>
+    </types>
+    <types>
+        <members>EnhancedLokObject__c-EnhancedLokObject Layout</members>
+        <members>EnhancedObject__c-EnhancedObject Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <members>Analytics Cloud Integration User</members>
+        <members>Analytics Cloud Security User</members>
+        <members>ContractManager</members>
+        <members>Cross Org Data Proxy User</members>
+        <members>Custom%3A Marketing Profile</members>
+        <members>Custom%3A Sales Profile</members>
+        <members>Custom%3A Support Profile</members>
+        <members>Force%2Ecom - App Subscription User</members>
+        <members>Force%2Ecom - Free User</members>
+        <members>Identity User</members>
+        <members>MarketingProfile</members>
+        <members>NewProfile</members>
+        <members>Partner App Subscription User</members>
+        <members>ReadOnly</members>
+        <members>SolutionManager</members>
+        <members>Standard</members>
+        <members>StandardAul</members>
+        <members>Work%2Ecom Only User</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>EnhancedLokObject__c</members>
+        <members>EnhancedObject__c</members>
+        <members>Training3__c</members>
+        <name>SharingRules</name>
+    </types>
+    <version>40.0</version>
 </Package>

@@ -12,4 +12,8 @@
         <members>ObjectOctEnhance__c.newfield__c</members>
         <name>CustomField</name>
     </types>
+    <types>
+        <members>ObjectOctEnhance__c</members>
+        <name>CustomObject</name>
+    </types>
 </Package>

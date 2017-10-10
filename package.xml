@@ -69,6 +69,10 @@
         <name>Profile</name>
     </types>
     <types>
+        <members>unfiled$public/tesdd</members>
+        <name>Report</name>
+    </types>
+    <types>
         <members>EnhancedLokObject__c</members>
         <members>EnhancedObject__c</members>
         <members>Training3__c</members>

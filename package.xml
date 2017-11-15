@@ -16,4 +16,8 @@
         <members>ObjectOctEnhance__c</members>
         <name>CustomObject</name>
     </types>
+    <types>
+        <members>Industry</members>
+        <name>StandardValueSet</name>
+    </types>
 </Package>

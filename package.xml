@@ -6,6 +6,7 @@
         <members>ApexC2</members>
         <members>Scenario1</members>
         <members>Scenario2</members>
+        <members>WrapperExampleController</members>
         <name>ApexClass</name>
     </types>
     <types>

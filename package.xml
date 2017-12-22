@@ -13,4 +13,8 @@
         <members>EnhancedNew__c.field01__c</members>
         <name>CustomField</name>
     </types>
+    <types>
+        <members>DocDiference/DiffDoc.jpg</members>
+        <name>Document</name>
+    </types>
 </Package>

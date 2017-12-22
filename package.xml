@@ -37,6 +37,7 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>DocDiference/DiffDoc.jpg</members>
         <members>MyDocs</members>
         <members>MyDocs/Sample1.jpg</members>
         <members>MyDocs/Sample2.jpg</members>

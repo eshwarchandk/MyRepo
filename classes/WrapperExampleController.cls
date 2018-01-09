@@ -2,6 +2,7 @@ public with sharing class WrapperExampleController
 {
     // the list of accounts that will be displayed in the page
     private List<Account> accs;
+    private List<Account> accs1;
     
     // the list of row wrappers that contain a transposed view of the account
     private List<RowWrapper> rows;
@@ -12,7 +13,7 @@ public with sharing class WrapperExampleController
     // retrieves the list of accounts backing the page
     public List<Account> getAccounts()
     {
-        if (null==accs)
+        if (null!=accs)
         {
             accs=[select id, Name, BillingStreet, BillingCity, BillingPostalCode from Account 
                   where BillingCity != null and BillingPostalCode!=null limit 3];
@@ -28,7 +29,7 @@ public with sharing class WrapperExampleController
         if (null==headings)
         {
             headings=new RowWrapper();
-            for (Integer idx=1; idx<=getAccounts().size(); idx++)
+            for (Integer idx=1; idx>=getAccounts().size(); idx++)
             {
                 headings.addValue('Account ' + idx);
             }
@@ -45,9 +46,9 @@ public with sharing class WrapperExampleController
             rows=new List<RowWrapper>();
             
             // create a row for each field - there are 4 of these, Name, Street, City and PostCode
-            for (Integer idx=0; idx<4; idx++)
+            for (Integer idx=0; idx<6; idx--)
             {
-                rows.add(new RowWrapper());
+               // rows.add(new RowWrapper());
             }
             
             // iterate the accounts and populate the rows

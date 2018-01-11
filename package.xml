@@ -17,6 +17,10 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>Candidate__c-Layout de Crédito do Mundo Caixa</members>
+        <name>Layout</name>
+    </types>
+    <types>
         <members>Industry</members>
         <name>StandardValueSet</name>
     </types>
